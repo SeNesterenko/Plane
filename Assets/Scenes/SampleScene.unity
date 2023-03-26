@@ -923,7 +923,7 @@ Transform:
   m_GameObject: {fileID: 811151255}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -945,8 +945,8 @@ MonoBehaviour:
   _specialMaterial: {fileID: 2100000, guid: 5b5831947478514418fbe44a25ec2674, type: 2}
   _normalMaterial: {fileID: 2100000, guid: a90045aa5de0ae24588ab8f51aba7b3f, type: 2}
   _camera: {fileID: 963194227}
-  _plankSpecialScale: {x: 1, y: 0.1, z: 1}
-  _plankNormalScale: {x: 1, y: 0.1, z: 1}
+  _plankSpecialScale: {x: 2, y: 2, z: 2}
+  _plankNormalScale: {x: 2, y: 2, z: 2}
   _cloudsSpecialScale: {x: 0.1, y: 0.1, z: 0.1}
   _cloudsNormalScale: {x: 0.1, y: 0.1, z: 0.1}
   _clouds:
@@ -1103,7 +1103,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1146,8 +1146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8bb7c18f8045b184963c3d150b19b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxDistance: 15
-  _minDistance: 8
+  _maxDistance: 30
+  _minDistance: 15
   _scrollSpeed: 4
   _target: {fileID: 535358391}
   _sensitivity: 1
@@ -1659,7 +1659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80235349329556340}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 1, z: -3.851}
+  m_LocalPosition: {x: 0, y: 1, z: -8.94}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
