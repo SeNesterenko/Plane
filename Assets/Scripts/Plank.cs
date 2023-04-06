@@ -78,7 +78,6 @@ public class Plank : MonoBehaviour
     {
         if (!_isSpecialMode)
         {
-            _renderer.enabled = true;
             _renderer.material = _normalMaterial;
             _nd.gameObject.SetActive(false);
             _plankGroup1.SetActive(true);
@@ -110,7 +109,6 @@ public class Plank : MonoBehaviour
         }
         else
         {
-            _renderer.enabled = false;
             _renderer.material = _specialMaterial;
             _nd.gameObject.SetActive(true);
             _plane.gameObject.SetActive(false);
