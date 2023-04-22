@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -16,7 +17,9 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject _plankGroup3;
     [SerializeField] private GameObject _plankGroup4;
     [SerializeField] private GameObject _plankGroup5;
+    [SerializeField] private GameObject _cubes;
     
+
 
     private float _distance = 85;
     private readonly Vector2 _pitchMinMax = new (-40, 85);
@@ -42,6 +45,7 @@ public class GameController : MonoBehaviour
             _plankGroup5.transform.Translate(Vector3.back * 3.0f * Time.deltaTime);
         }
     }
+    
 
     private void LateUpdate () 
     {

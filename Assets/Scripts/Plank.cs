@@ -29,8 +29,12 @@ public class Plank : MonoBehaviour
     [SerializeField] private Transform[] _clouds;
     [SerializeField] private GameObject _plane;
 
+    [SerializeField] private GameObject _cubes;
+    
+
     private Renderer _renderer;
     private bool _isSpecialMode;
+    private float _timePassed = 0f;
 
     private void Awake()
     {
@@ -47,6 +51,22 @@ public class Plank : MonoBehaviour
             ChangeState();
         }
         SpawnPlank();
+
+        if (_isSpecialMode)
+        {
+            _timePassed += Time.deltaTime;
+
+            if (_timePassed >= 1.0f)
+            {
+                _cubes.transform.Translate(Vector3.back * 40.0f * Time.deltaTime);
+                _timePassed = 0;
+            }
+        }
+        else
+        {
+            _timePassed += Time.deltaTime;
+            _cubes.transform.Translate(Vector3.back * 0.05f * Time.deltaTime);
+        }
     }
 
     private void SpawnPlank()
@@ -94,7 +114,6 @@ public class Plank : MonoBehaviour
             _plane.gameObject.SetActive(true);
             _camera.orthographic = false;
 
-
             /*_renderer.material = _normalMaterial;
             transform.localScale = _plankNormalScale;
             
@@ -117,8 +136,7 @@ public class Plank : MonoBehaviour
             _plankGroup3.SetActive(false);
             _plankGroup4.SetActive(false);
             _plankGroup5.SetActive(false);
-            
-            
+
             foreach (var cloud in _clouds)
             {
                 cloud.localScale = _cloudsSpecialScale;
@@ -127,6 +145,7 @@ public class Plank : MonoBehaviour
             _camera.transform.position = new Vector3(0, 40, 0);
             _camera.orthographic = true;
             _camera.transform.rotation = Quaternion.Euler(90, 0, 0);
+
             /*_renderer.material = _specialMaterial;
             _camera.transform.position = new Vector3(0, 10, 0);
             transform.localScale = _plankSpecialScale;
