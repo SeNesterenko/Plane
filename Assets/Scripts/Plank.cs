@@ -45,7 +45,7 @@ public class Plank : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !PauseMenu._gameIsPaused)
         {
             _isSpecialMode = !_isSpecialMode;
             ChangeState();

@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (!_plank.IsSpecialMode)
+        if (!_plank.IsSpecialMode && !PauseMenu._gameIsPaused)
         {
             var mouseScroll = Input.GetAxis("Mouse ScrollWheel") * _scrollSpeed;
             if (mouseScroll != 0)
@@ -51,7 +51,7 @@ public class GameController : MonoBehaviour
     {
         if (!_plank.IsSpecialMode)
         {
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0) && !PauseMenu._gameIsPaused)
             {
                 _yaw += Input.GetAxis("Mouse X") * _sensitivity;
                 _pitch -= Input.GetAxis("Mouse Y") * _sensitivity;
