@@ -56,16 +56,15 @@ public class Plank : MonoBehaviour
         {
             _timePassed += Time.deltaTime;
 
-            if (_timePassed >= 1.0f)
+            if (_timePassed >= 2.0f)
             {
-                _cubes.transform.Translate(Vector3.back * 40.0f * Time.deltaTime);
+                _cubes.transform.Translate(Vector3.back * 4.0f * Time.deltaTime);
                 _timePassed = 0;
             }
         }
         else
         {
-            _timePassed += Time.deltaTime;
-            _cubes.transform.Translate(Vector3.back * 0.05f * Time.deltaTime);
+            _cubes.transform.Translate(Vector3.back * 0.1f * Time.deltaTime);
         }
     }
 
