@@ -530,10 +530,10 @@ RectTransform:
   m_Father: {fileID: 808818387}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -36.477936}
-  m_SizeDelta: {x: 163.4571, y: 215.5737}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523146169
 MonoBehaviour:
@@ -584,7 +584,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1229.4944}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &523944568
 MonoBehaviour:
@@ -620,57 +620,82 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et sollicitudin
-    nibh. Vivamus imperdiet erat dictum egestas tristique. Nullam id rutrum turpis.
-    Vivamus consectetur enim nec erat sodales condimentum. Nulla facilisi. Nulla
-    tristique mauris ac auctor molestie. Nulla congue elementum nisi, sit amet aliquet
-    magna pretium vitae.
-
-
-
-    Cras tristique accumsan faucibus. Etiam ut lobortis
-    sem. Morbi lobortis posuere nulla, id lobortis elit molestie et. Maecenas libero
-    mauris, finibus id nisl a, cursus lacinia urna. Vivamus velit est, malesuada
-    eget eros sed, cursus bibendum ante. Sed consequat ullamcorper metus eu condimentum.
-    Integer placerat lacus ut ante posuere, sit amet venenatis nulla molestie. Morbi
-    accumsan justo mauris, id volutpat diam scelerisque sed. Maecenas ut nunc in
-    velit pretium placerat. Suspendisse placerat tincidunt ligula nec scelerisque.
-    Fusce ut pretium leo. Maecenas vitae semper diam. Vestibulum ante ipsum primis
-    in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas dapibus odio
-    viverra purus condimentum viverra.
-
-
-
-    Pellentesque habitant morbi tristique
-    senectus et netus et malesuada fames ac turpis egestas. Cras eu quam sapien.
-    Fusce ac purus est. Aenean tortor nisi, lobortis eget quam at, ullamcorper vulputate
-    odio. Morbi facilisis mauris ac felis mattis, nec sodales mauris maximus. Quisque
-    risus velit, blandit ut ullamcorper eu, mattis eu nunc. Etiam pellentesque quam
-    vel nulla sagittis, at sodales libero viverra.
-
-
-
-    Integer molestie ut mauris
-    sit amet suscipit. Morbi semper quam non posuere rhoncus. Duis at vehicula eros.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam leo, mattis
-    vitae mollis in, laoreet nec ligula. Etiam et tincidunt turpis, quis pretium
-    dui. Cras lobortis, lectus sed dignissim ornare, est felis gravida ligula, sit
-    amet aliquam elit augue eget nunc. Interdum et malesuada fames ac ante ipsum
-    primis in faucibus. Mauris ac lorem quis sem elementum aliquam. Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit.
-
-
-
-    Curabitur purus dolor, aliquet
-    eget maximus vel, hendrerit a lectus. Donec pretium luctus ipsum eget molestie.
-    Mauris eu vestibulum arcu. Nullam metus nunc, fringilla id ipsum at, congue posuere
-    justo. Maecenas varius finibus nunc, et lacinia sem. Curabitur ullamcorper orci
-    a tincidunt hendrerit. In non pharetra est. Duis mollis, velit a laoreet accumsan,
-    ipsum massa cursus urna, at placerat velit turpis sed nisi. Donec cursus rhoncus
-    diam ac cursus. Curabitur malesuada turpis eget venenatis venenatis. Duis molestie
-    hendrerit interdum. Donec rhoncus quis tellus vel scelerisque. Nullam et laoreet
-    velit. Nam rhoncus feugiat eleifend. Praesent eu rhoncus velit. Praesent dictum
-    non enim ac viverra.'
+  m_text: "\n\u041F\u043E\u0433\u043E\u0434\u043D\u0430\u044F \u0440\u0430\u0434\u0430\u0440\u043D\u0430\u044F
+    \u0441\u0438\u0441\u0442\u0435\u043C\u0430 IntuVue RDR-7000 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438
+    Honeywell \u043F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442
+    \u043F\u0438\u043B\u043E\u0442\u0430\u043C \u0434\u0435\u043B\u043E\u0432\u043E\u0439
+    \u0430\u0432\u0438\u0430\u0446\u0438\u0438 \u0438 \u0432\u0435\u0440\u0442\u043E\u043B\u0435\u0442\u043E\u0432
+    \u0447\u0435\u0442\u043A\u0443\u044E \u0438 \u0441\u0432\u043E\u0435\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u0443\u044E
+    \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E, \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u0443\u044E
+    \u0434\u043B\u044F \u043F\u0440\u0438\u043D\u044F\u0442\u0438\u044F \u0431\u043E\u043B\u0435\u0435
+    \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u044B\u0445, \u0431\u044B\u0441\u0442\u0440\u044B\u0445
+    \u0438 \u043E\u0431\u043E\u0441\u043D\u043E\u0432\u0430\u043D\u043D\u044B\u0445
+    \u0440\u0435\u0448\u0435\u043D\u0438\u0439 \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043B\u0435\u0442\u043E\u043C
+    \u0432 \u043F\u043B\u043E\u0445\u0443\u044E \u043F\u043E\u0433\u043E\u0434\u0443
+    \u0438 \u0441\u043B\u043E\u0436\u043D\u044B\u0445 \u0443\u0441\u043B\u043E\u0432\u0438\u044F\u0445.\r\n\r\n\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u0430\u044F
+    \u0434\u043B\u044F \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F
+    \u0433\u043E\u0440\u0430\u0437\u0434\u043E \u0431\u043E\u043B\u0435\u0435 \u0432\u044B\u0441\u043E\u043A\u043E\u0439
+    \u043D\u0430\u0434\u0435\u0436\u043D\u043E\u0441\u0442\u0438, \u0442\u043E\u0447\u043D\u043E\u0441\u0442\u0438
+    \u0438 \u0434\u043E\u043B\u0433\u043E\u0432\u0435\u0447\u043D\u043E\u0441\u0442\u0438,
+    \u0447\u0435\u043C \u0443\u0441\u0442\u0430\u0440\u0435\u0432\u0448\u0438\u0435
+    \u0440\u0430\u0434\u0430\u0440\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B
+    \u043D\u0430 \u043C\u0430\u0433\u043D\u0435\u0442\u0440\u043E\u043D\u043D\u043E\u0439
+    \u043E\u0441\u043D\u043E\u0432\u0435, \u0441\u0438\u0441\u0442\u0435\u043C\u0430
+    RDR-7000 \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442 \u043A\u043B\u0438\u0435\u043D\u0442\u0430\u043C
+    \u0433\u0438\u0431\u043A\u043E\u0441\u0442\u044C \u0434\u043B\u044F \u0434\u0438\u0441\u0442\u0430\u043D\u0446\u0438\u043E\u043D\u043D\u043E\u0433\u043E
+    \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u043D\u044B\u0445
+    \u0444\u0443\u043D\u043A\u0446\u0438\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E
+    \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F, \u0447\u0442\u043E\u0431\u044B
+    \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0442\u044C \u0438\u043C \u043D\u0430\u0438\u0431\u043E\u043B\u0435\u0435
+    \u0447\u0435\u0442\u043A\u043E\u0435 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435
+    \u043E \u043F\u043E\u0433\u043E\u0434\u043D\u044B\u0445 \u0443\u0441\u043B\u043E\u0432\u0438\u044F\u0445
+    \u043D\u0430 \u043C\u0430\u0440\u0448\u0440\u0443\u0442\u0430\u0445, \u043F\u043E
+    \u043A\u043E\u0442\u043E\u0440\u044B\u043C \u043E\u043D\u0438 \u043F\u0440\u0438\u0432\u044B\u043A\u043B\u0438
+    \u043B\u0435\u0442\u0430\u0442\u044C\r\n\r\n\u041A\u043B\u044E\u0447\u0435\u0432\u044B\u0435
+    \u043F\u0440\u0435\u0438\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u0430 Honeywell:\r\n\r\n\u0421\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0435
+    \u043F\u043E\u043A\u043E\u043B\u0435\u043D\u0438\u0435\r\n\u041F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E
+    \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u0430\u044F
+    \u043C\u0435\u0442\u0435\u043E\u0440\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+    \u0440\u0430\u0434\u0438\u043E\u043B\u043E\u043A\u0430\u0446\u0438\u043E\u043D\u043D\u0430\u044F
+    \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0441 \u0432\u044B\u0441\u043E\u043A\u0438\u043C
+    \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435\u043C \u0438 \u0441\u0438\u0441\u0442\u0435\u043C\u043E\u0439
+    \u043A\u0430\u0440\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+    \u0437\u0435\u043C\u043B\u0438/\u043C\u043E\u0440\u044F.\r\n\r\n\u041D\u0430\u0434\u0435\u0436\u043D\u043E\u0441\u0442\u044C
+    \u0438 \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C\r\n\u0422\u0432\u0435\u0440\u0434\u043E\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+    \u043F\u0435\u0440\u0435\u0434\u0430\u0442\u0447\u0438\u043A\u0438, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044E\u0449\u0438\u0435
+    \u0441\u0436\u0430\u0442\u0438\u0435 \u0438\u043C\u043F\u0443\u043B\u044C\u0441\u043E\u0432,
+    \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u0441\u043D\u0438\u0436\u0435\u043D\u0438\u0435
+    \u0432\u0435\u0441\u0430 \u0438 \u044D\u043D\u0435\u0440\u0433\u043E\u043F\u043E\u0442\u0440\u0435\u0431\u043B\u0435\u043D\u0438\u044F,
+    \u0443\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0441\u0442\u0432\u043E\u0432\u0430\u043D\u043D\u0443\u044E
+    \u043A\u043E\u0433\u0435\u0440\u0435\u043D\u0442\u043D\u0443\u044E \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0443
+    \u0438 \u043F\u043E\u0432\u044B\u0448\u0435\u043D\u043D\u0443\u044E \u043D\u0430\u0434\u0435\u0436\u043D\u043E\u0441\u0442\u044C
+    \u043F\u043E \u0441\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044E \u0441 \u043C\u0430\u0433\u043D\u0435\u0442\u0440\u043E\u043D\u043D\u044B\u043C\u0438
+    \u043F\u0435\u0440\u0435\u0434\u0430\u0442\u0447\u0438\u043A\u0430\u043C\u0438\r\n\r\n\u041A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u043E\u0441\u0442\u044C
+    \u0438 \u043F\u0440\u043E\u0441\u0442\u043E\u0442\u0430 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0438\r\n\u041B\u0443\u0447\u0448\u0438\u0435
+    \u0432 \u0441\u0432\u043E\u0435\u043C \u043A\u043B\u0430\u0441\u0441\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438
+    \u043D\u0430\u0448\u0438\u0445 \u0440\u0430\u0434\u0430\u0440\u043D\u044B\u0445
+    \u0441\u0438\u0441\u0442\u0435\u043C RDR-4000 IntuVue, \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435
+    \u0432 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0439, \u043B\u0435\u0433\u043A\u0438\u0439
+    \u043A\u043E\u0440\u043F\u0443\u0441.\r\n\r\n\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u044B\u0435
+    \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E
+    \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\r\n\u0412
+    \u043B\u044E\u0431\u043E\u0435 \u0432\u0440\u0435\u043C\u044F \u043C\u043E\u0436\u043D\u043E
+    \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+    \u0444\u0443\u043D\u043A\u0446\u0438\u0438, \u0432\u043A\u043B\u044E\u0447\u0430\u044F
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u0435 \u0442\u0443\u0440\u0431\u0443\u043B\u0435\u043D\u0442\u043D\u043E\u0441\u0442\u0438,
+    \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u043D\u043E\u0435 \u043A\u0430\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435,
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u0435 \u0446\u0435\u043B\u0435\u0439
+    \u0438 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+    \u0444\u0443\u043D\u043A\u0446\u0438\u0438 \u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+    (\u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u0435 \u043C\u043E\u043B\u043D\u0438\u0439
+    \u0438 \u0433\u0440\u0430\u0434\u0430), \u0430 \u0442\u0430\u043A\u0436\u0435
+    \u043F\u0440\u043E\u0433\u043D\u043E\u0437\u0438\u0440\u0443\u0435\u043C\u044B\u0439
+    \u0432\u0435\u0442\u0440\u043E\u0432\u043E\u0439 \u0434\u043E\u0436\u0434\u044C.\r\n\r\nRDR-7000
+    \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 Honeywell \u043F\u043E\u0432\u044B\u0448\u0430\u0435\u0442
+    \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u044C \u043F\u0438\u043B\u043E\u0442\u043E\u0432
+    \u0438 \u043F\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u043E\u0432, \u043F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u044F
+    \u043D\u043E\u0432\u044B\u0435 \u0444\u0443\u043D\u043A\u0446\u0438\u0438 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u044F,
+    \u0430\u043D\u0430\u043B\u0438\u0437\u0430 \u0438 \u043F\u0440\u0435\u0434\u043E\u0442\u0432\u0440\u0430\u0449\u0435\u043D\u0438\u044F.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -782,8 +807,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.52197266, y: 206.8}
-  m_SizeDelta: {x: -9.398804, y: -165.5737}
+  m_AnchoredPosition: {x: 0, y: 135.89}
+  m_SizeDelta: {x: -9.3988, y: -271.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &553430354
 MonoBehaviour:
@@ -868,7 +893,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 184.49521, z: 0, w: 288.77502}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1101,7 +1126,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 743388092}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.22472908
+  m_Size: 0.23618212
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1177,8 +1202,8 @@ RectTransform:
   m_Father: {fileID: 1405984913}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.77527094}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1856,10 +1881,10 @@ RectTransform:
   m_Father: {fileID: 1818959155}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -207.86588}
-  m_SizeDelta: {x: 98.7875, y: 36.0683}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 18.03415}
+  m_SizeDelta: {x: 0, y: 36.0683}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145014164
 MonoBehaviour:
@@ -2000,10 +2025,10 @@ RectTransform:
   m_Father: {fileID: 808818387}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 225}
-  m_SizeDelta: {x: 1133, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1192170829
 MonoBehaviour:
@@ -2089,7 +2114,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.4414673, y: -0.22229004, z: -0.34783936, w: -0.39007568}
+  m_margin: {x: 0.4414673, y: -0.22229004, z: -0.34783936, w: -49.015198}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2289,7 +2314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1818959155
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2308,10 +2333,10 @@ RectTransform:
   m_Father: {fileID: 808818387}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.522, y: -36.477936}
-  m_SizeDelta: {x: 163.4571, y: 215.5737}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1856999729
 GameObject:
@@ -2484,10 +2509,10 @@ RectTransform:
   m_Father: {fileID: 1818959155}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -4.8084}
-  m_SizeDelta: {x: 977.1924, y: 356.3956}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -34.67723}
+  m_SizeDelta: {x: -154.8076, y: -219.0319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931997060
 MonoBehaviour:
@@ -2505,8 +2530,8 @@ MonoBehaviour:
   m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
-  m_Elasticity: 0.1
-  m_Inertia: 1
+  m_Elasticity: 0
+  m_Inertia: 0
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 20
   m_Viewport: {fileID: 202179905}
