@@ -29,7 +29,12 @@ public class Plank : MonoBehaviour
     [SerializeField] private Transform[] _clouds;
     [SerializeField] private GameObject _plane;
 
-    [SerializeField] private GameObject _cubes;
+    [SerializeField] private GameObject _cubesND;
+    [SerializeField] private GameObject _cubes3D;
+
+    [SerializeField] private GameObject _hider;
+    
+    
     
 
     private Renderer _renderer;
@@ -50,22 +55,18 @@ public class Plank : MonoBehaviour
             _isSpecialMode = !_isSpecialMode;
             ChangeState();
         }
+
         SpawnPlank();
+        
+        _timePassed += Time.deltaTime;
 
-        if (_isSpecialMode)
+        if (_timePassed >= 2.0f)
         {
-            _timePassed += Time.deltaTime;
-
-            if (_timePassed >= 2.0f)
-            {
-                _cubes.transform.Translate(Vector3.back * 4.0f * Time.deltaTime);
-                _timePassed = 0;
-            }
+            _cubesND.transform.Translate(Vector3.back * 7.0f * Time.deltaTime);
+            _timePassed = 0;
         }
-        else
-        {
-            _cubes.transform.Translate(Vector3.back * 0.1f * Time.deltaTime);
-        }
+        
+        _cubes3D.transform.Translate(Vector3.back * 0.1f * Time.deltaTime);
     }
 
     private void SpawnPlank()
@@ -104,16 +105,19 @@ public class Plank : MonoBehaviour
             _plankGroup3.SetActive(true);
             _plankGroup4.SetActive(true);
             _plankGroup5.SetActive(true);
-            foreach (var cloud in _clouds)
-            {
-                cloud.localScale = _cloudsNormalScale;
-            }
-            
+            _cubes3D.SetActive(true);
+            _cubesND.SetActive(false);
+            _hider.SetActive(false);
             _gameController.CheckCameraDistance();
             _plane.gameObject.SetActive(true);
             _camera.orthographic = false;
 
-            /*_renderer.material = _normalMaterial;
+            /*
+            foreach (var cloud in _clouds)
+            {
+                cloud.localScale = _cloudsNormalScale;
+            }
+            _renderer.material = _normalMaterial;
             transform.localScale = _plankNormalScale;
             
             foreach (var cloud in _clouds)
@@ -123,7 +127,8 @@ public class Plank : MonoBehaviour
             
             _plane.gameObject.SetActive(true);
             _camera.orthographic = false;
-            _gameController.CheckCameraDistance();*/
+            _gameController.CheckCameraDistance();
+            */
         }
         else
         {
@@ -135,17 +140,20 @@ public class Plank : MonoBehaviour
             _plankGroup3.SetActive(false);
             _plankGroup4.SetActive(false);
             _plankGroup5.SetActive(false);
+            _cubes3D.SetActive(false);
+            _cubesND.SetActive(true);
+            _hider.SetActive(true);
 
-            foreach (var cloud in _clouds)
-            {
-                cloud.localScale = _cloudsSpecialScale;
-            }
-            
             _camera.transform.position = new Vector3(0, 40, 0);
             _camera.orthographic = true;
             _camera.transform.rotation = Quaternion.Euler(90, 0, 0);
 
-            /*_renderer.material = _specialMaterial;
+            /*
+            foreach (var cloud in _clouds)
+            {
+                cloud.localScale = _cloudsSpecialScale;
+            }
+            _renderer.material = _specialMaterial;
             _camera.transform.position = new Vector3(0, 10, 0);
             transform.localScale = _plankSpecialScale;
             
@@ -156,7 +164,8 @@ public class Plank : MonoBehaviour
             
             _plane.gameObject.SetActive(false);
             _camera.orthographic = true;
-            _camera.transform.rotation = Quaternion.Euler(90, 0, 0);*/
+            _camera.transform.rotation = Quaternion.Euler(90, 0, 0);
+            */
         }
     }
 }
